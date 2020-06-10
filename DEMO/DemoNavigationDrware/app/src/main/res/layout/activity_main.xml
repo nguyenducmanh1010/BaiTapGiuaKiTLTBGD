@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/content_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/text"
+    />
+</LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:id="@+id/navigarion_view"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        app:menu="@menu/menuitemdrawe"
+
+        app:headerLayout="@layout/head_drawe_layout"
+        android:layout_gravity="start"
+        />
+</androidx.drawerlayout.widget.DrawerLayout>

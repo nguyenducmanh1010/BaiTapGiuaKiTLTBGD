@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/menu1"
+        android:title="Them"/>
+    <item
+        android:id="@+id/menu2"
+        android:title="Sua"/>
+    <item
+        android:id="@+id/menu3"
+        android:icon="@android:drawable/button_onoff_indicator_off"
+        app:showAsAction="ifRoom"
+        android:title="sdsds"
+        />
+</menu>

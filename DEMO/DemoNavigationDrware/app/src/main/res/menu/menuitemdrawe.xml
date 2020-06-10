@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Camera"
+        android:id="@+id/camera"
+
+        android:icon="@drawable/iconcamera"
+        />
+    <item android:title="Gallery"
+        android:id="@+id/gallery"
+
+        android:icon="@drawable/icongallery"
+        />
+    <item android:title="Slide Show"
+        android:id="@+id/slideshow"
+        android:icon="@drawable/iconslideshow"
+        />
+    <item android:title="Manager"
+        android:id="@+id/manager"
+        android:icon="@drawable/iconsetting"
+        />
+
+    <item
+        android:title="Conmunication"
+
+
+        >
+        <menu>
+            <item android:title="Share"
+                android:icon="@drawable/iconshare"
+                android:id="@+id/share"
+                />
+            <item android:title="Send"
+                android:icon="@drawable/iconsend"
+                android:id="@+id/send"
+                />
+        </menu>
+    </item>
+
+</menu>
